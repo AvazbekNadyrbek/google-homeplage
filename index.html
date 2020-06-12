@@ -1,10 +1,78 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Google</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon/site.webmanifest">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-	
+	<!-- Header Component -->
+	<header class="header">
+		<nav class="nav">
+			<ul class="nav-list">
+				<li class="nav-list__item"><a class="nav-list__link" href="#">Gmail</a></li>
+				<li class="nav-list__item"><a class="nav-list__link" href="#">Images</a></li>
+				<li class="nav-list__item">
+					<svg class="nav-list__icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+						<path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 
+						0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/>
+						<path d="M0 0h24v24H0z" fill="none"/>
+					</svg>
+				</li>
+				<li class="nav-list__item"><button class="nav-list__button">Sign in</button></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Search Component -->
+	<main class="search-section">
+		<img class="search-section__image" src="img/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+		<form class="search-section__form" action="#" method="GET">
+			<input class="search-section__field" id="search" name="search" type="text" autofocus>
+		</form>
+
+		<div class="search-section__buttons-container">
+			<button class="search-section__button">Google Search</button>
+			<button class="search-section__button">I'm feeling Lucky</button>
+		</div>
+
+		<p class="search-section__paragraph">Google offered in:
+			<a class="search-section__link" href="#">Hello</a>
+			<a class="search-section__link" href="#">Hello</a>
+			<a class="search-section__link" href="#">Hello</a>
+		</p>
+	</main>
+
+
+	<footer class="footer">
+		<p class="footer__paragraph">Kyrgyzstan</p>
+
+		<nav class="footer-nav">
+			<ul class="footer-nav__left">
+				<li class="footer-nav__item"><a class="footer-nav__link" href="#">Advertising</a></li>
+				<li class="footer-nav__item"><a class="footer-nav__link" href="#">Business</a></li>
+				<li class="footer-nav__item"><a class="footer-nav__link" href="#">About</a></li>
+				<li class="footer-nav__item"><a class="footer-nav__link" href="#">How Search works</a></li>
+			</ul>
+
+			<ul class="footer-nav__right">
+				<li class="footer-nav__item"><a class="footer-nav__link" href="#">Privacy</a></li>
+				<li class="footer-nav__item"><a class="footer-nav__link" href="#">Terms</a></li>
+				<li class="footer-nav__item"><a class="footer-nav__link" href="#">Settings</a></li>
+			</ul>
+		</nav>
+	</footer>
+
+
+
 </body>
 </html>
